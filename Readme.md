@@ -6,51 +6,46 @@ Compreender esses conceitos não apenas facilita o aprendizado de novas linguage
 
 #### Desafios - Respostas
 
-1) Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+1) Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
 ```js
-diaDaSemana = prompt('Qual é o dia da semana?');
-if (diaDaSemana == 'Sábado') {
-    alert('Bom fim de semana!');
-} else if (diaDaSemana == 'Domingo') {
-    alert('Bom fim de semana!');
-} else {
-    alert('Boa semana!');
+let contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
 }
 ```
 
-2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+2) Crie um contador que comece em 10 e vá até 0 usando um loop while. Mostre cada número.
 
 ```js
-numero = prompt('Digite um positivo ou negativo');
-if (numero > 0) {
-    alert('Número positivo!');
-} else {
-    alert('Número negativo!');
+let contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
 }
 ```
 
-3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!" no console do navegador. Caso contrário, mostre "Tente novamente para ganhar.".
+3) Crie um programa de contagem regressiva. Peça um número ao usuario e conte de 0 até esse número, usando um loop while no console do navegador.
 
 ```js
-pontuacao = 105;
-if (pontuacao > 100) {
-    console.log('Parabéns, você venceu!');
-} else {
-    console.log('Tente novamente para ganhar.');
+let numeroMaximo = prompt("Digite um número para a contagem regressiva:");
+
+while (numeroMaximo >= 0) {
+    console.log(numeroMaximo);
+    numeroMaximo--;
 }
+
 ```
 
-5) Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+4) Crie um programa de contagem progregressiva. Peça um número ao usuario e conte deste número até `0`, usando um loop while no console do navegador.
 
 ```js
-let saldoConta = 500; // Exemplo de saldo
-alert(`Seu saldo é de R$${saldoConta}.`);
-```
+let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");;
+let contador = 0;
 
-6) Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
-
-```js
-let nome = prompt('Qual o seu nome?');
-alert(`Boas vindas ${nome}`);
+while (contador <= numeroMaximo) {
+    console.log(contador);
+    contador++
+}
 ```
