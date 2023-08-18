@@ -6,34 +6,34 @@ Compreender esses conceitos não apenas facilita o aprendizado de novas linguage
 
 #### Desafios - Respostas
 
-1) Declare uma variável chamada `nome` e atribua a ela o valor "Lua".
+1) Mostre um alerta com a mensagem "Bem-vindo ao nosso site!".
+
+```js
+alert('Bem-vindo ao nosso site!');
+```
+
+2) Declare uma variável chamada `nome` e atribua a ela o valor "Lua".
 
 ```js
 let nome = "Lua";
 ```
 
-2) Crie uma variável chamada `idade` e atribua a ela o valor 25.
+3) Crie uma variável chamada `idade` e atribua a ela o valor 25.
 
 ```js
 let idade = 25;
 ```
 
-3) Defina uma variável `numeroDeVendas` e atribua a ela o valor 50.
+4) Defina uma variável `numeroDeVendas` e atribua a ela o valor 50.
 
 ```js
 let numeroDeVendas = 50;
 ```
 
-4) Defina uma variável `saldoDisponivel` e atribua a ela o valor 1000. 
+5) Defina uma variável `saldoDisponivel` e atribua a ela o valor 1000. 
 
 ```js
 let saldoDisponivel = 1000;
-```
-
-5) Mostre um alerta com a mensagem "Bem-vindo ao nosso site!".
-
-```js
-alert('Bem-vindo ao nosso site!');
 ```
 
 6) Exiba um alerta com o texto "Erro! Preencha todos os campos."
