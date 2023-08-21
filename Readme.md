@@ -38,7 +38,7 @@ while (numeroMaximo >= 0) {
 
 ```
 
-4) Crie um programa de contagem progregressiva. Peça um número ao usuario e conte deste número até `0`, usando um loop while no console do navegador.
+4) Crie um programa de contagem progressiva. Peça um número ao usuario e conte deste número até `0`, usando um loop while no console do navegador.
 
 ```js
 let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");;
